@@ -37,7 +37,8 @@ h2 {
   width: 75%;
   border-radius: 20px;
   margin-bottom: 30px;
-  box-shadow: 15px 10px 8px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 15px 10px 0px 0px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .accent {
@@ -84,7 +85,7 @@ button {
   background-color: hsl(154, 59%, 51%);
   border: 1px solid hsl(154, 59%, 51%);
   border-radius: 10px;
-  box-shadow: 25px 15px 8px rgba(0, 0, 0, 0.5), 15px 5px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 25px 15px 4px rgba(0, 0, 0, 0.5), 15px 5px 8px rgba(0, 0, 0, 0.4);
 }
 
 .the-form p {
@@ -100,6 +101,10 @@ a {
 }
 
 @media only screen and (min-width: 1440px) {
+  body {
+    background-image: url(images/bg-intro-desktop.png);
+  }
+
   main {
     display: flex;
     justify-content: center;
